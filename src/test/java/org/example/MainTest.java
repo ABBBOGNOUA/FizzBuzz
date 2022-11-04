@@ -1,9 +1,7 @@
 package org.example;
 
-    import org.assertj.core.api.Assertions;
-    import org.junit.jupiter.api.Test;
-
-    import static org.junit.jupiter.api.Assertions.*;
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
 
     /*
         *Définition des idées en notes papier
@@ -39,8 +37,8 @@ package org.example;
                 String result = main.fizzBuzz(2);
 
             //Then
-                String resultAttendu2 = "2";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "1 2";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -52,8 +50,8 @@ package org.example;
                 String result = main.fizzBuzz(3);
 
             //Then
-                String resultAttendu2 = "Fizz";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "Fizz 3";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -65,8 +63,8 @@ package org.example;
                 String result = main.fizzBuzz(4);
 
             //Then
-                String resultAttendu2 = "4";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "4";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -78,8 +76,8 @@ package org.example;
                 String result = main.fizzBuzz(5);
 
             //Then
-                String resultAttendu2 = "Buzz";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "Buzz";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -91,8 +89,8 @@ package org.example;
                 String result = main.fizzBuzz(6);
 
             //Then
-                String resultAttendu2 = "6";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "Fizz 6";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -104,8 +102,8 @@ package org.example;
                 String result = main.fizzBuzz(7);
 
             //Then
-                String resultAttendu2 = "7";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "7";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -117,8 +115,8 @@ package org.example;
                 String result = main.fizzBuzz(8);
 
             //Then
-                String resultAttendu2 = "8";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "8";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -130,8 +128,8 @@ package org.example;
                 String result = main.fizzBuzz(9);
 
             //Then
-                String resultAttendu2 = "9";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "Fizz 9";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 
         @Test
@@ -143,7 +141,7 @@ package org.example;
                 String result = main.fizzBuzz(10);
 
             //Then
-                String resultAttendu2 = "10";
-                Assertions.assertThat(result).isEqualTo(resultAttendu2);
+                String resultAttendu = "Buzz 10";
+                Assertions.assertThat(result).isEqualTo(resultAttendu);
         }
 }
